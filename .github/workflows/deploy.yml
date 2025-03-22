@@ -3,9 +3,9 @@ name: Deploy Astro site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this if your default branch is different
+      - astro-init
 
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
   contents: read
