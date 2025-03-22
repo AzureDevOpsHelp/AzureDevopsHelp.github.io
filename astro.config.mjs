@@ -4,8 +4,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-	base: "/AzureDevOpsHelp.github.io/",
-	site: "https://azuredevopshelp.github.io",
+	site: "https://azuredevopshelp.com",
+	base: "AzureDevOpsHelp.com",
 	output: "static",
 	integrations: [mdx(), sitemap()],
 });
