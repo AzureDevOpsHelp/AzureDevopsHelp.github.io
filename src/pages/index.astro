@@ -10,26 +10,36 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K1YK3MQNC6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K1YK3MQNC6');
+</script>
 	<body>
 		<Header />
 		<main>
 			<h1>Hello, Azure DevOps Power User!</h1>
 			<p>
-				At least, I assume that's what you are, because that's the type of person that would be drawn to this site.
+				At least, we assume that's what you are, because that's the type of person that would be drawn to this site.
 				
-				We have years of experience delving deep into facet of MicroSoft's Azure DevOps Services (aka AzDo), whether it be 
+				We have years of experience delving deep into every facet of MicroSoft's Azure DevOps Services (aka AzDo), whether it be 
 				<ul>
-					<li>Creating, managing, tracking and reporting on work items</li>
+					<li>creating, managing, tracking and reporting on work items</li>
 					<li>choosing the right process template (e.g. Basic, CMMI, Agile, or Scrum) for any given project</li>
-					<li>Editing process templates (usually unnecessary - this is where a lot of teams get bogged down)</li>
-					<li>Deploying and managing agents (MS-hosted, self-hosted, VMSS), and automation thereof</li>
-					<li>Using Azure DevOps pipelines, PowerShell and/or Bash to automate devops and other tasks</li>
-					<li>Developing AzDo extensions in Node.js, Html, and CSS</li>
-					<li>Administration (user accounts, security, code repositories, service connections, etc.)</li>
-					<li>Reporting tools such as widgets and dashboards, delivery plans, analytics views, or even Power BI.</li>
+					<li>editing process templates (usually unnecessary - this is where a lot of teams get bogged down)</li>
+					<li>deploying and managing agents (MS-hosted, self-hosted, VMSS), and automation thereof</li>
+					<li>using Azure DevOps pipelines, PowerShell and/or Bash to automate devops and other tasks</li>
+					<li>developing AzDo extensions in Node.js, Html, and CSS</li>
+					<li>administration (user accounts, security, code repositories, service connections, etc.)</li>
+					<li>reporting tools such as widgets and dashboards, delivery plans, analytics views, or even Power BI</li>
+					<li>data migration and backup</li>
 				</ul>
-
-				If you have a need for personalized Azure DevOps Services expertise, you may contact us directly. Otherwise, you may browse these pages.
+				If you have a need for personalized Azure DevOps Services expertise, you may contact us directly. 
+				Otherwise, you may browse these pages; they may contain something of use to you.
 			</p>
 		</main>
 		<Footer />
