@@ -5,7 +5,7 @@ pubDate: 'Jul 08 2024'
 heroImage: '/blog-placeholder-3.jpg'
 ---
 
-This post describes how to add a new user to your Azure DevOps organization using the web interface of Azure DevOps Services. It assumes you are already logged in and that you are a Project Collection Administrator. Organization owners are automatically Project Collection Administrators. It also assumes you have allowed external users to join your organization. This setting can be checked or adjusted in the Policies section of the organization settings.
+This post describes how to add a new user to your Azure DevOps organization using the web interface of Azure DevOps Services. It assumes you are already logged in and that you are a Project Collection Administrator. Organization owners are automatically Project Collection Administrators. If you created the organization, then you are its owner. We also assume you have allowed external users to join your organization. This setting can be found in the Policies section of the organization settings.
 
 ## Step 1: Navigate to Organization Settings
 
